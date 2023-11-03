@@ -52,22 +52,53 @@ Drafting the Schematics, layouts, and symbols for 2-input NAND and XOR logic gat
 *<div align = "center"> Figure 7 - XOR MOSFET schematic in Electric VLSI</div>*
 
 <p align = "center">
-  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/NAND_layout.png/>
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/XOR_layout.png/>
 </p>
 
 *<div align = "center"> Figure 8 - XOR MOSFET Layout in Electric VLSI </div>*
 
 <p align = "center">
-  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/NAND_sim_3.png>
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/XOR_sim_3.png>
 </p?
 
-*<div align = "center"> Figure 9 - NAND Schematic Simulation using LTSpice</div>*
+*<div align = "center"> Figure 9 - XOR Schematic Simulation using LTSpice</div>*
 
 <p align = "center">
-  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/NAND_sim_4.png>
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/XOR_sim_4.png>
 </p?
 
-*<div align = "center"> Figure 10 - NAND Layout Simulation using LTSpice</div>*
+*<div align = "center"> Figure 10 - XOR Layout Simulation using LTSpice</div>*
+
+While the simulation differenes between the schematic and layout for the NAND gate are minimal, the respective differences for the XOR gate are more noticeable. The output voltage possesses a more gradual curve as it approaches 5V, which is due to the layout simulations accounting for delays, whereas the schematic simulations assume minimal delays. Since the XOR gate involves much more wires and FET's than the NAND gate, the delay seen by the output voltage is much more as well. These increased delays can cause glitches and produce unexpected results.
+
+### Full Adder
+
+<p align = "center">
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/FA_schem.png/>
+</p>
+
+*<div align = "center"> Figure 11 - Full Adder Schematic in Electric VLSI</div>*
+
+<p align = "center">
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/FA_layout.png/>
+</p>
+
+*<div align = "center"> Figure 11 - Full Adder Layout in Electric VLSI</div>*
+
+<p align = "center">
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/FA_sim_1.png/>
+</p>
+
+*<div align = "center"> Figure 12 - Full Adder Schematic Simulation in Electric VLSI</div>*
+
+<p align = "center">
+  <img src=https://github.com/erhvan21/ENCE_3501_VLSI_Class2023/blob/main/Lab%205/images/FA_sim_2.png/>
+</p>
+
+*<div align = "center"> Figure 13 - Full Adder Layout Simulation in Electric VLSI</div>*
+
+
+
 
 
 
